@@ -33,5 +33,5 @@
   </Data>
   <WebUI>https://[IP]:[PORT:4050]/</WebUI>
   <Banner></Banner>
-  <Icon>https://raw.githubusercontent.com/devzoxibox/docker-unraid/master/zoxi/images/subsonic-icon.png</Icon>
+  <Icon>http://ericsembrat.com/wp-content/uploads/2012/06/subsonic.png</Icon>
 </Containers>
