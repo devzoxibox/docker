@@ -1,1 +1,37 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>ZoXi-subsonic</Name>
+  <Description>
+	
+	
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/devzoxibox/docker-subsonic/</Registry>
+  <GitHub>https://github.com/devzoxibox/docker-subsonic</GitHub>
+  <Repository>devzoxibox/docker-subsonic</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>host</Mode>
+    </Networking>
+  <Environment>
+    <Variable>
+      <Name>SSL</Name>
+      <Value>yes</Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir>path to config</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>path to media</HostDir>
+      <ContainerDir>/media</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>  	
+  </Data>
+  <WebUI>https://[IP]:[PORT:4050]/</WebUI>
+  <Banner></Banner>
+  <Icon>https://raw.githubusercontent.com/devzoxibox/docker/master/zoxi/images/subsonic-icon.png</Icon>
+</Containers>
