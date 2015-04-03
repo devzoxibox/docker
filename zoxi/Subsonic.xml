@@ -5,9 +5,9 @@
 	
 	
   </Description>
-  <Registry>https://registry.hub.docker.com/u/devzoxibox/docker-subsonic/</Registry>
-  <GitHub>https://github.com/devzoxibox/docker-subsonic</GitHub>
-  <Repository>devzoxibox/docker-subsonic</Repository>
+  <Registry>https://registry.hub.docker.com/u/zoxi/contenair-subsonic/</Registry>
+  <GitHub>https://github.com/devzoxibox/contenair-subsonic</GitHub>
+  <Repository>zoxi/contenair-subsonic</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
