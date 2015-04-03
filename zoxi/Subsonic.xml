@@ -22,12 +22,12 @@
   <Data>
     <Volume>
       <HostDir>path to config</HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <ContainerDir>/subsonic</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
       <HostDir>path to media</HostDir>
-      <ContainerDir>/media</ContainerDir>
+      <ContainerDir>/music</ContainerDir>
       <Mode>ro</Mode>
     </Volume>  	
   </Data>
