@@ -22,7 +22,7 @@
   <Data>
     <Volume>
       <HostDir>path to config</HostDir>
-      <ContainerDir>/var/subsonic</ContainerDir>
+      <ContainerDir>/subsonic</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
