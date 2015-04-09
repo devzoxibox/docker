@@ -9,6 +9,8 @@ Contenair Subsonic sous Debian (latest)
     [b][span style='color: #E80000;']Dossiers :[/span][/b][br]
     [b]/subsonic[/b] : Dossier ou se trouve la configuration de Subsonic ainsi que les codecs.[br]
     [b]/music[/b]    : Dossier ou se trouve toute votre musique.[br]
+    
+    http://subsonic.org
   </Description>
   <Registry>https://registry.hub.docker.com/u/zoxi/contenair-subsonic/</Registry>
   <GitHub>https://github.com/devzoxibox/contenair-subsonic</GitHub>
