@@ -32,6 +32,9 @@
     </Volume>  	
   </Data>
   <WebUI>https://[IP]:[PORT:4050]/</WebUI>
-  <Banner></Banner>
+  <Banner>Contenair Subsonic sous Debian
+  	Version : 5.2.1
+  	Codecs fonctionels ainsi que la lecture des fichiers "flac"
+    </Banner>
   <Icon>http://ericsembrat.com/wp-content/uploads/2012/06/subsonic.png</Icon>
 </Containers>
