@@ -12,7 +12,7 @@
     
     http://subsonic.org[br]
   </Description>
-  <Registry>https://registry.hub.docker.com/u/zoxi/containerr-subsonic/</Registry>
+  <Registry>https://registry.hub.docker.com/u/zoxi/container-subsonic/</Registry>
   <GitHub>https://github.com/devzoxibox/container-subsonic</GitHub>
   <Repository>zoxi/container-subsonic</Repository>
   <BindTime>true</BindTime>
