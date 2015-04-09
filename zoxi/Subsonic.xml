@@ -2,8 +2,13 @@
 <Containers>
   <Name>ZoXi-subsonic</Name>
   <Description>
-	
-	
+Contenair Subsonic sous Debian (latest)
+  	Version : 5.2.1
+  	Codecs fonctionnels ainsi que la lecture des fichiers "flac"
+  	
+    [b][span style='color: #E80000;']Dossiers :[/span][/b][br]
+    [b]/subsonic[/b] : Dossier ou se trouve la configuration de Subsonic ainsi que les codecs.[br]
+    [b]/music[/b]    : Dossier ou se trouve toute votre musique.[br]
   </Description>
   <Registry>https://registry.hub.docker.com/u/zoxi/contenair-subsonic/</Registry>
   <GitHub>https://github.com/devzoxibox/contenair-subsonic</GitHub>
@@ -32,9 +37,6 @@
     </Volume>  	
   </Data>
   <WebUI>https://[IP]:[PORT:4050]/</WebUI>
-  <Banner>Contenair Subsonic sous Debian
-  	Version : 5.2.1
-  	Codecs fonctionels ainsi que la lecture des fichiers "flac"
-    </Banner>
+  <Banner>http://i.imgur.com/zlBhvgD.png</Banner>
   <Icon>http://ericsembrat.com/wp-content/uploads/2012/06/subsonic.png</Icon>
 </Containers>
