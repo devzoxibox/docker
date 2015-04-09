@@ -7,9 +7,9 @@
     [b]/config[/b] This is where minidlna will store it's configuration file, database and logs.[br]
     [b]/media[/b] This is where minidlna will scan for media files.
   </Description>
-  <Registry>https://registry.hub.docker.com/u/zoxi/contenair-minidlna/</Registry>
-  <GitHub>https://github.com/devzoxibox/contenair-minidlna</GitHub>
-  <Repository>zoxi/contenair-minidlna</Repository>
+  <Registry>https://registry.hub.docker.com/u/zoxi/container-minidlna/</Registry>
+  <GitHub>https://github.com/devzoxibox/container-minidlna</GitHub>
+  <Repository>zoxi/containerr-minidlna</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
