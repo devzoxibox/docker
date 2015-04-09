@@ -9,7 +9,7 @@
   </Description>
   <Registry>https://registry.hub.docker.com/u/zoxi/container-minidlna/</Registry>
   <GitHub>https://github.com/devzoxibox/container-minidlna</GitHub>
-  <Repository>zoxi/containerr-minidlna</Repository>
+  <Repository>zoxi/container-minidlna</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
