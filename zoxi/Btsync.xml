@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>ZoXi-btsync</Name>
+  <Description>
+  
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/zoxi/container-btsync/</Registry>
+  <GitHub>https://github.com/devzoxibox/container-btsync</GitHub>
+  <Repository>zoxi/container-btsync</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>host</Mode>
+    <Publish>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir>path to config</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>path to sync</HostDir>
+      <ContainerDir>/sync</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>  	
+  </Data>
+  <WebUI></WebUI>
+  <Banner>http://www.chakal.net/wp-content/uploads/2012/02/dlna-logo.jpg</Banner>
+  <Icon>http://www.macupdate.com/images/icons256/47763.png</Icon>
+</Containers>
