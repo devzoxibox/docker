@@ -32,7 +32,7 @@
       <Mode>rw</Mode>
     </Volume>  	
   </Data>
-  <WebUI></WebUI>
+  <WebUI>https://[IP]:[PORT:8888]/</WebUI>
   <Banner>http://www.chakal.net/wp-content/uploads/2012/02/dlna-logo.jpg</Banner>
   <Icon>http://www.macupdate.com/images/icons256/47763.png</Icon>
 </Containers>
