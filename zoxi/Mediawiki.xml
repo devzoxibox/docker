@@ -10,7 +10,7 @@
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
     <Networking>
-    <<Mode>bridge</Mode>
+    <Mode>bridge</Mode>
     <Publish>
       <Port>
         <HostPort>80</HostPort>
@@ -21,7 +21,7 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name></Name>
+      <Name>$USER_MYSQLTEST</Name>
       <Value></Value>
     </Variable>
   </Environment>    
