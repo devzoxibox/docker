@@ -21,18 +21,23 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name></Name>
+      <Name>$MYSQL_PASS</Name>
       <Value></Value>
     </Variable>
   </Environment>    
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/mediawikitest</HostDir>
+      <HostDir>path to config</HostDir>
       <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>path to database mysql</HostDir>
+      <ContainerDir>/database</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8081]/mediawiki</WebUI>
   <Banner></Banner>
-  <Icon></Icon>
+  <Icon>http://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/MediaWiki_Community_UNOFFICIAL_DRAFT.svg/600px-MediaWiki_Community_UNOFFICIAL_DRAFT.svg.png</Icon>
 </Containers>
