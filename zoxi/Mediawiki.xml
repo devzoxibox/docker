@@ -21,7 +21,7 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name>$MYSQL_PASS</Name>
+      <Name></Name>
       <Value></Value>
     </Variable>
   </Environment>    
