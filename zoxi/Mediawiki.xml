@@ -32,7 +32,7 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>path to config</HostDir>
+      <HostDir>path to mysql</HostDir>
       <ContainerDir>/var/lib/mysql</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
