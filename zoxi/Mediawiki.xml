@@ -21,7 +21,7 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name>$USER_MYSQLTEST</Name>
+      <Name>TEST</Name>
       <Value></Value>
     </Variable>
   </Environment>    
