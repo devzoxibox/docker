@@ -27,12 +27,12 @@
   </Environment>    
   <Data>
     <Volume>
-      <HostDir>path to config</HostDir>
+      <HostDir>/mnt/user/appdata/mediawikitest</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>path to mysql</HostDir>
+      <HostDir>/mnt/user/appdata/mediawikitest/mysql</HostDir>
       <ContainerDir>/var/lib/mysql</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
