@@ -31,12 +31,7 @@
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-    <Volume>
-      <HostDir>/mnt/user/appdata/mediawikitest/mysql</HostDir>
-      <ContainerDir>/var/lib/mysql</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-   </Data>
+  </Data>
   <WebUI>http://[IP]:[PORT:8081]/mediawiki</WebUI>
   <Banner></Banner>
   <Icon></Icon>
