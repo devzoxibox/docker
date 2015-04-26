@@ -8,7 +8,7 @@
   <GitHub>https://github.com/devzoxibox/container-mediawiki</GitHub>
   <Repository>zoxi/container-mediawiki</Repository>
   <BindTime>true</BindTime>
-  <Privileged>false</Privileged>
+  <Privileged>true</Privileged>
     <Networking>
     <Mode>bridge</Mode>
     <Publish>
