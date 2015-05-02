@@ -21,7 +21,7 @@
   </Networking>
   <Environment>
     <Variable>
-      <Name></Name>
+      <Name>MARIADB_ROOT_PASSWD</Name>
       <Value></Value>
     </Variable>
   </Environment>    
