@@ -35,7 +35,7 @@
     <Volume>
       <HostDir>path to media</HostDir>
       <ContainerDir>/music</ContainerDir>
-      <Mode>ro</Mode>
+      <Mode>rw</Mode>
     </Volume>  	
   </Data>
   <WebUI>https://[IP]:[PORT:4050]/</WebUI>
