@@ -2,8 +2,8 @@
 <Containers>
   <Name>ZoXi-subsonic</Name>
   <Description>
-    Contenair Subsonic sous Debian (latest)[br]
-  	Version Subsonic : 5.2.1[br]
+    Contenair Subsonic sous Debian (Wheezy)[br]
+  	Version Subsonic : 5.3[br]
   	Codecs fonctionnels ainsi que la lecture des fichiers "flac"[br][br]
   	
     [b][span style='color: #E80000;']Dossiers :[/span][/b][br]
