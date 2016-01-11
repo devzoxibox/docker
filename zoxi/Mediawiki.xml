@@ -19,12 +19,6 @@
       </Port>
     </Publish>
   </Networking>
-  <Environment>
-    <Variable>
-      <Name>MARIADB_ROOT_PASSWD</Name>
-      <Value></Value>
-    </Variable>
-  </Environment>    
   <Data>
     <Volume>
       <HostDir>path to config</HostDir>
